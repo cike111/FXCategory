@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FXCategory_Example' do
+  pod 'FXCategory', :path => '../'
+
+  target 'FXCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
