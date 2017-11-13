@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FXCategory'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of FXCategory.'
 
 # This description is used to generate tags and improve search results.
@@ -52,7 +52,13 @@ end
 s.subspec 'UITextField' do |cs|
 cs.source_files = 'FXCategory/Classes/UITextField/*.{h,m}'
 end
+s.subspec 'NSString' do |cs|
+cs.source_files = 'FXCategory/Classes/NSString/*.{h,m}'
+cs.dependency 'AMTumblrHud', '~> 1.0.1'
+cs.dependency 'MBProgressHUD', '~> 1.0.0'
+cs.dependency 'FXCategory/UIColor'
 
+end
 s.subspec 'UIView' do |cs|
 cs.source_files = 'FXCategory/Classes/UIView/*.{h,m}'
 cs.dependency 'AMTumblrHud', '~> 1.0.1'
