@@ -1,0 +1,62 @@
+{
+  "name": "FXCategory",
+  "version": "0.1.0",
+  "summary": "A short description of FXCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cike111/FXCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cike111": "1134916885@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/cike111/FXCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "NSobject",
+      "source_files": "FXCategory/Classes/NSobject/*.{h,m}"
+    },
+    {
+      "name": "Toast",
+      "source_files": "FXCategory/Classes/Toast/*.{h,m}"
+    },
+    {
+      "name": "UIAlert",
+      "source_files": "FXCategory/Classes/UIAlert/*.{h,m}"
+    },
+    {
+      "name": "UIButton",
+      "source_files": "FXCategory/Classes/UIButton/*.{h,m}"
+    },
+    {
+      "name": "UIColor",
+      "source_files": "FXCategory/Classes/UIColor/*.{h,m}"
+    },
+    {
+      "name": "UITextField",
+      "source_files": "FXCategory/Classes/UITextField/*.{h,m}"
+    },
+    {
+      "name": "UIView",
+      "source_files": "FXCategory/Classes/UIView/*.{h,m}",
+      "dependencies": {
+        "AMTumblrHud": [
+          "~> 1.0.1"
+        ],
+        "MBProgressHUD": [
+          "~> 1.0.0"
+        ],
+        "FXCategory/UIColor": [
+
+        ]
+      }
+    }
+  ]
+}

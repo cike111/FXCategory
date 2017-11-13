@@ -30,7 +30,37 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FXCategory/Classes/**/*'
+s.subspec 'NSobject' do |cs|
+cs.source_files = 'FXCategory/Classes/NSobject/*.{h,m}'
+end
+s.subspec 'Toast' do |cs|
+cs.source_files = 'FXCategory/Classes/Toast/*.{h,m}'
+end
+
+s.subspec 'UIAlert' do |cs|
+cs.source_files = 'FXCategory/Classes/UIAlert/*.{h,m}'
+end
+
+s.subspec 'UIButton' do |cs|
+cs.source_files = 'FXCategory/Classes/UIButton/*.{h,m}'
+end
+
+s.subspec 'UIColor' do |cs|
+cs.source_files = 'FXCategory/Classes/UIColor/*.{h,m}'
+end
+
+s.subspec 'UITextField' do |cs|
+cs.source_files = 'FXCategory/Classes/UITextField/*.{h,m}'
+end
+
+s.subspec 'UIView' do |cs|
+cs.source_files = 'FXCategory/Classes/UIView/*.{h,m}'
+cs.dependency 'AMTumblrHud', '~> 1.0.1'
+cs.dependency 'MBProgressHUD', '~> 1.0.0'
+cs.dependency 'FXCategory/UIColor'
+
+end
+
   
   # s.resource_bundles = {
   #   'FXCategory' => ['FXCategory/Assets/*.png']

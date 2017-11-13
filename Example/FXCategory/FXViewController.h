@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+#import "NSObject+JSCategory.h"
 
 @interface FXViewController : UIViewController
 

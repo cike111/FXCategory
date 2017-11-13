@@ -1,0 +1,6 @@
+framework module FXCategory {
+  umbrella header "FXCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

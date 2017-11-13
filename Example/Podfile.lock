@@ -1,0 +1,25 @@
+PODS:
+  - AMTumblrHud (1.0.1)
+  - FXCategory/UIColor (0.1.0)
+  - FXCategory/UIView (0.1.0):
+    - AMTumblrHud (~> 1.0.1)
+    - FXCategory/UIColor
+    - MBProgressHUD (~> 1.0.0)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - FXCategory/UIColor (from `../`)
+  - FXCategory/UIView (from `../`)
+
+EXTERNAL SOURCES:
+  FXCategory:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AMTumblrHud: 095daf71c57d4e47d11a8432dba1ed6177a35115
+  FXCategory: 2c2cabffddf461b6b690ff81c0a7c0d4a95459a0
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 2bb99b56162c26964dc7ba23a3cddeced413cfdf
+
+COCOAPODS: 1.3.1

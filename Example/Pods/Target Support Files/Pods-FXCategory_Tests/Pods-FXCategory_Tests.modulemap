@@ -1,0 +1,6 @@
+framework module Pods_FXCategory_Tests {
+  umbrella header "Pods-FXCategory_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
