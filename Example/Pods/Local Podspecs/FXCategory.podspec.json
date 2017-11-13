@@ -1,6 +1,6 @@
 {
   "name": "FXCategory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of FXCategory.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/cike111/FXCategory",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/cike111/FXCategory.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -42,6 +42,21 @@
     {
       "name": "UITextField",
       "source_files": "FXCategory/Classes/UITextField/*.{h,m}"
+    },
+    {
+      "name": "NSString",
+      "source_files": "FXCategory/Classes/NSString/*.{h,m}",
+      "dependencies": {
+        "AMTumblrHud": [
+          "~> 1.0.1"
+        ],
+        "MBProgressHUD": [
+          "~> 1.0.0"
+        ],
+        "FXCategory/UIColor": [
+
+        ]
+      }
     },
     {
       "name": "UIView",
